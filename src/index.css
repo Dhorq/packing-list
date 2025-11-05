@@ -1,0 +1,32 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #ffffffde;
+
+  /* color-scheme: light dark;
+  background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+select,
+input {
+  background-color: #d97d55;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffffde;
+}

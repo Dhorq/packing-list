@@ -1,0 +1,28 @@
+.barContainer {
+  background-color: #427a76;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  font-size: 25px;
+}
+
+.button {
+  background-color: #ffecc0;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  gap: 15px;
+}
+
+.input::placeholder {
+  color: white;
+}
