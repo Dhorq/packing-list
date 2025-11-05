@@ -1,4 +1,4 @@
-# Packing List
+# Packing List 📋
 
 A simple React app to manage a packing list.  
 Users can **add items**, **mark items as packed**, **delete items**, and **sort items**.
