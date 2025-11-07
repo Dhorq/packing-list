@@ -15,6 +15,7 @@ const Item = ({ items, onTogglePacked, onDeleteItem }) => {
               type="checkbox"
               name="packed"
               id="packed"
+              checked={i.isPacked}
               onChange={() => onTogglePacked(i.id)}
             />
             {i.count} {i.name}

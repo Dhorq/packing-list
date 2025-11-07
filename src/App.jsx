@@ -1,5 +1,5 @@
 import styles from "./App.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "./components/Header/Header";
 import Bar from "./components/Bar/Bar";
 import List from "./components/List/List";
@@ -7,8 +7,15 @@ import Footer from "./components/Footer/Footer";
 import { itemData } from "./data/itemData";
 
 function App() {
-  const [items, setItems] = useState(itemData);
+  const [items, setItems] = useState(() => {
+    const saved = localStorage.getItem("items");
+    return saved ? JSON.parse(saved) : itemData;
+  });
   const [sort, setSort] = useState("input");
+
+  useEffect(() => {
+    localStorage.setItem("items", JSON.stringify(items));
+  }, [items]);
 
   function handleAddItem(newItem) {
     let updated = [...items, newItem];
