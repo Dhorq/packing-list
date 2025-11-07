@@ -4,6 +4,7 @@ import styles from "./List.module.css";
 
 const List = ({
   items,
+  setItems,
   onTogglePacked,
   onDeleteItem,
   onSort,
@@ -17,7 +18,13 @@ const List = ({
         onTogglePacked={onTogglePacked}
         onDeleteItem={onDeleteItem}
       />
-      <Sort items={items} onSort={onSort} sort={sort} setSort={setSort} />
+      <Sort
+        items={items}
+        setItems={setItems}
+        onSort={onSort}
+        sort={sort}
+        setSort={setSort}
+      />
     </div>
   );
 };

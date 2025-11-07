@@ -1,0 +1,12 @@
+.sortContainer {
+  display: flex;
+  gap: 5px;
+}
+
+.clearButton {
+  cursor: pointer;
+}
+
+.clearButton:hover {
+  background-color: red;
+}

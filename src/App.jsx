@@ -38,13 +38,14 @@ function App() {
       <Bar onAddItem={handleAddItem} items={items} />
       <List
         items={items}
+        setItems={setItems}
         onTogglePacked={handleTogglePacked}
         onDeleteItem={handleDeleteItem}
         onSort={(sorted) => setItems(sorted)}
         sort={sort}
         setSort={setSort}
       />
-      <Footer />
+      <Footer items={items} />
     </div>
   );
 }

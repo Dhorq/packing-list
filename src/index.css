@@ -22,7 +22,8 @@ body {
 }
 
 select,
-input {
+input,
+.clear {
   background-color: #d97d55;
   padding: 10px;
   font-size: 15px;

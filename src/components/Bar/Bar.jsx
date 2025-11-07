@@ -15,6 +15,7 @@ const Bar = ({ onAddItem, items }) => {
       count: count,
       name: itemName,
       isPacked: false,
+      createdAt: Date.now(),
     };
     onAddItem(newItem);
     setItemName("");
