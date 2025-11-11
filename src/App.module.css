@@ -8,5 +8,6 @@
 @media (max-width: 480px) {
   .container {
     grid-template-rows: 0.8fr 0.8fr 4fr 0.5fr;
+    overflow-y: auto;
   }
 }
