@@ -12,3 +12,6 @@ Users can **add items**, **mark items as packed**, **delete items**, and **sort 
   - Input order
   - Description (alphabetical)
   - Packed status
+
+## Live Website
+https://whimsical-kelpie-a68cc0.netlify.app/
