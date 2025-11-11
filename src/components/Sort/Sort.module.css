@@ -10,3 +10,10 @@
 .clearButton:hover {
   background-color: red;
 }
+
+@media (max-width: 480px) {
+  .sortContainer {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}

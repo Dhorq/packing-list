@@ -26,3 +26,21 @@
 .input::placeholder {
   color: white;
 }
+
+@media (max-width: 480px) {
+  .barContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .barContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}

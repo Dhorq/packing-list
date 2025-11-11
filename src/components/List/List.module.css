@@ -7,3 +7,10 @@
   padding: 25px 0;
   overflow-y: auto;
 }
+
+@media (max-width: 480px) {
+  .listContainer {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}

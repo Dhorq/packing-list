@@ -18,7 +18,30 @@
 }
 
 .noItem {
+  text-align: center;
   font-size: 1.5rem;
   font-style: italic;
   color: yellow;
+}
+
+@media (max-width: 480px) {
+  .itemContainer {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .noItem {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .itemContainer {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .noItem {
+    font-size: 1rem;
+  }
 }
